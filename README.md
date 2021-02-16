@@ -7,11 +7,16 @@ A large concern for mining projects is heavy metal contimnination. In the enviro
 ## Intellectual Property
 Since I worked in a team to develop these products for large clients I do not have permission to distribute the raw data used in these projects. I have also remnamed any identifing files and removed the location data from the showcased images. The final products were geo TIFF files, however they are been run through GIS to create viewable images. 
 
-## Data Set
+## Data and Modeling
 The data was collected by external teams and was presented as a csv and after proccesing was in the following columns: 
 
 |sample_id|Easting|Northing|Au|Cu|Pb|Zn|grid|Subsurface Material|Elevation|Slope|Aspect| 
 |---------|-------|--------|--|--|--|--|----|-------------------|---------|-----|------|  
+
+The GAM model used a base function to perform modeling: 
+
+$$ Metal ~ s(Easting, Northing) + s(Aspect) + te(Easting, Northing, k=3) $$
+
 
 ## Features 
 - Detailed anaylis of geospatial data. Including automatic correction for spatial auto correlation and outlier filtering. 
