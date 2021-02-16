@@ -118,23 +118,3 @@ for(i in 1:nrow(west_mod)){
 }
 
 rm(i,j,x1,x2,y1,y2,val,valmin,correction, modify,key,a,ph,)
-
-#Breaking down by grid
-k <- c(1,3:ncol(west_mod))
-west_highgrade <- west_mod[west_mod$grid == "high grade",k ]
-west_fetter    <- west_mod[west_mod$grid == "fetter lake",k]
-west_highwood  <- west_mod[west_mod$grid == "high ore woodbine",k]
-west_east      <- west_mod[west_mod$grid == "high ore east",k]
-west_49        <- west_mod[west_mod$grid == "forty-nine",k]
-west_joker     <- west_mod[west_mod$grid == "little joker",k]
-west_south     <- west_mod[west_mod$grid == "high ore south",k]
-west_west      <- west_mod[west_mod$grid == "high ore west",k]
-west_martha    <- west_mod[west_mod$grid == "martha ellen",k]
-west_day       <- west_mod[west_mod$grid == "day",k]
-west_indianN   <- west_mod[west_mod$grid == "indian NW",k] 
-west_unity     <- west_mod[west_mod$grid == "N-province-unity",k]
-west_prem      <- west_mod[west_mod$grid == "premier",k]
-west_snow      <- west_mod[west_mod$grid == "snowfields",k]
-west_S         <- west_mod[west_mod$grid == "S-province-unity",k]
-west_woodbine  <- west_mod[west_mod$grid == "woodbine",k]
-west_indianE   <- west_mod[west_mod$grid == "indian east",k]  
