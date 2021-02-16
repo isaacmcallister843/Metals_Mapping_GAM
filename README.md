@@ -1,8 +1,8 @@
 # Metals_Mapping_GAM
 Predictive metals mapping using generalized additive modeling
 
-### Lead Concentration Predictions, Scales Removed
 ![Raster Plot](https://user-images.githubusercontent.com/78721353/108017788-9d6a5300-6fca-11eb-94b4-5ff47191b014.PNG)
+### Figure 1: Lead Concentration Predictions, Scales Removed
 
 ## Motivation 
 A large concern for mining projects is heavy metal contimnination. In the enviromental perminiting procces mining companies must do a detailed survey of heavy metal levels on their future mine site. Historically this procces was very surface level, scientists would idenitfy areas of concern and field teams would sample at those locations. However, with modern data tools detailed maps of metal concenrations are possible. With this project our team developed several methods of predicting heavy metal concentrations. Generalized additive modeling is showcased here. This method involves using polynomerials smoother functions to identify predictors that are relevant to metal concentrations. This was one of the first large scale data science projects I worked to develop. 
@@ -30,6 +30,10 @@ In some cases the models work best with a spatial transform to put the data poin
 - Advanced error handeling and redudancy features 
 - Map generation and raster output
 - Bubble map creation 
+
+
+![Bubble Maps](https://user-images.githubusercontent.com/78721353/108017948-27b2b700-6fcb-11eb-830d-38a198f4f0c5.PNG)
+### Figure 2: Bubble Map for Various Metals
 
 ## Code Examples
 
