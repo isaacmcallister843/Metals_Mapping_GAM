@@ -44,7 +44,7 @@ output_list <- ana(dataframe,xy_coords)
 ## Final Products
 Can be seen in the Final Images folder. 
 
-![alt text](https://github.com/[isaacmcallister843]/[Metals_Mapping_Gam]/blob/[main]/Final Images/Bubble Maps.PNG?raw=true)
+![alt text](https://github.com/[isaacmcallister843]/[Metals_Mapping_Gam]/blob/[main]/Final_Images/Bubble Maps.PNG?raw=true)
 
 
 
