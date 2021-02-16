@@ -10,8 +10,8 @@ Since I worked in a team to develop these products for large clients I do not ha
 ## Data Set
 The data was collected by external teams and was presented as a csv and after proccesing was in the following columns: 
 
-|sample_id|Easting|Northing|Au|Cu|Pb|Zn|grid|Subsurface Material| Elevation|Slope|Aspect| 
-|----|-----|-------|-------|---|---|---|---|-----|-------|-------|------|------|  
+|sample_id|Easting|Northing|Au|Cu|Pb|Zn|grid|Subsurface Material|Elevation|Slope|Aspect| 
+|---------|-------|--------|--|--|--|--|----|-------------------|---------|-----|------|  
 
 ## Features 
 - Detailed anaylis of geospatial data. Including automatic correction for spatial auto correlation and outlier filtering. 
