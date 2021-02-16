@@ -14,9 +14,9 @@ The data was collected by external teams and was presented as a csv and after pr
 |---------|-------|--------|--|--|--|--|----|-------------------|---------|-----|------|  
 
 The GAM model used a base function to perform modeling: 
-
-$$ Metal ~ s(Easting, Northing) + s(Aspect) + te(Easting, Northing, k=3) $$
-
+```Math
+Metal ~ s(Easting, Northing) + s(Aspect) + te(Easting, Northing, k=3)
+```
 
 ## Features 
 - Detailed anaylis of geospatial data. Including automatic correction for spatial auto correlation and outlier filtering. 
