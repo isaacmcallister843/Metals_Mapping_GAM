@@ -42,7 +42,7 @@ output_list <- ana(dataframe,xy_coords)
 ```
 
 ## Final Products
-As mentioned above the final product is a raster image, however the below image is a viewable version created in GIS. 
+Can be seen in the Final Images folder. 
 
 
 
