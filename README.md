@@ -22,7 +22,7 @@ The function ana() automatically compares various functions and picks the one wi
 In some cases the models work best with a spatial transform to put the data points in a grid, this is done manually by the grid 2 function. 
 
 ## Features 
-- Detailed anaylis of geospatial data. Including automatic correction for spatial auto correlation and outlier filtering. 
+- Detailed analysis of geospatial data. Including automatic correction for spatial auto correlation and outlier filtering. 
 - Automatic selection of best fit models 
 - Advanced error handeling and redudancy features 
 - Map generation and raster output
@@ -35,7 +35,7 @@ First a grid needs to be created using the grid2 function.
 ```R
 xy_coords <- grid2(dataframe,rownum = 6, sens = 5, theta = 1)
 ```
-The new grid is now pasted with the dataframe into the ana function. This function performs all needed anaylis and outputs a raster
+The new grid is now pasted with the dataframe into the ana function. This function performs all needed analysis and outputs a raster
 
 ```R
 output_list <- ana(dataframe,xy_coords)
